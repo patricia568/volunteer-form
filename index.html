@@ -19,33 +19,35 @@
     <div class="grid">
       <h2 class="unit">Personal details</h2>
       <form class="grid" method="POST" action="https://formspree.io/dano0015@algonquinlive.com">
-        <div class="unit">
+        <div class="unit xs-1 s-1">
           <label for="name">Full name</label>
           <input id="name" name="name" required>
           <p>Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
         </div>
-        <div class="unit">
+        <div class="unit xs-1 s-1">
           <label for="name">What should we call you?</label>
           <input id="name" name="name" required>
           <p>What all your friends call you, e.g. “Liz”.</p>
         </div>
-        <div class="unit">
+        <div class="unit xs-1 s-1">
           <label for="birthdate">Date of birth</label>
           <input id="birthdate" type="date" required>
         </div>
-        T-shirt size
-        - Select a t-shirt size
-        - Fitted: XS
-        - Fitted: S
-        - Fitted: M
-        - Fitted: L
-        - Fitted: XL
-        - Straight-cut: XS
-        - Straight-cut: S
-        - Straight-cut: M
-        - Straight-cut: L
-        - Straight-cut: XL
-
+        <div class="unit xs-1 s-1">
+          <label for="size">T-shirt size</label>
+          <select id="size" placeholder="Select a t-shirt size" name="size">
+            <option>Fitted: XS</option>
+            <option>Fitted: S</option>
+            <option>Fitted: M</option>
+            <option>Fitted: L</option>
+            <option>Fitted: XL</option>
+            <option>Straight-cut: XS</option>
+            <option>Straight-cut: S</option>
+            <option>Straight-cut: M</option>
+            <option>Straight-cut: L</option>
+            <option>Straight-cut: XL</option>
+          </select>
+        </div>
         Email
         Phone number (optional)
 
