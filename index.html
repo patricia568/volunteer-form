@@ -12,19 +12,20 @@
 </head>
 <body>
   <div class="grid">
-    <header class="unit">
+    <header class="unit xs-1 s-1 m-1 l-1 xl-1">
       <h1>Apply to be a tree planter</h1>
       <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
     </header>
     <div class="grid">
-      <div class="unit">
-        <h2>Personal details</h2>
-      </div>
+      <h2 class="unit">Personal details</h2>
       <form class="grid" method="POST" action="https://formspree.io/dano0015@algonquinlive.com">
-      <div class="unit">
-        Full name
-      </div>
-        Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.
+        <div class="unit">
+          <label for="name">Full name</label>
+          <input id="name" name="name" required>
+        </div>
+        <div class="unit">
+          <p>Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+        </div>
 
         What should we call you?
         What all your friends call you, e.g. “Liz”.
@@ -105,7 +106,7 @@
         Please let us know any comments or questions you may have.
 
         Apply
-
+      </form>
         © Tree Hugger International Organization
 
     </div>
