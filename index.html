@@ -94,16 +94,40 @@
             </select>
           </div>
         </fieldset>
-        <fieldset>
-        What activities are you interested in helping with?
-        - Digging holes
-        - Getting dirty
-        - Lifting heavy objects
-        - Driving people
-        - Transporting trees
-        - Taking photos
-        - Online publishing
-        - Managing people
+        <fieldset class="grid">
+          <legend class="unit xs-1 s-1">What activities are you interested in helping with?</legend>
+          <div class="unit xs-1 s-1">
+            <input id="digging" type="checkbox" name="activities">
+            <label for="digging">Digging holes</label>
+          </div>
+            <div class="unit xs-1 s-1">
+            <input id="dirty" type="checkbox" name="activities">
+            <label for="dirty">Getting dirty</label>
+          </div>
+            <div class="unit xs-1 s-1">
+            <input id="lifting" type="checkbox" name="activities">
+            <label for="lifting">Lifting heavy objects</label>
+          </div>
+            <div class="unit xs-1 s-1">
+            <input id="driving" type="checkbox" name="activities">
+            <label for="driving">Driving people</label>
+          </div>
+            <div class="unit xs-1 s-1">
+            <input id="transporting" type="checkbox" name="activities">
+            <label for="transporting">Transporting trees</label>
+          </div>
+            <div class="unit xs-1 s-1">
+            <input id="taking" type="checkbox" name="activities">
+            <label for="taking">Taking photos</label>
+          </div>
+            <div class="unit xs-1 s-1">
+            <input id="publishing" type="checkbox" name="activities">
+            <label for="publishing">Online publishing</label>
+          </div>
+            <div class="unit xs-1 s-1">
+            <input id="managing" type="checkbox" name="activities">
+            <label for="managing">Managing people</label>
+          </div>
         </fieldset>
         <fieldset glass="grid">
           <legend class="unit xs-1 s-1">Do you have any experience with the following?</legend>
@@ -148,17 +172,39 @@
             <label for"speaking">Speaking to groups</label>
           </div>
         </fieldset>
-        Do you have a valid driver’s license?
-        - Yes
-        - No
-
-        Do you have a pick-up truck you’d be willing to use?
-        - Yes
-        - No
-
-        Do you have up-to-date first-aid certification?
-        - Yes
-        - No
+        <fieldset class="grid">
+          <legend class="unit cs-1 s-1">Do you have a valid driver’s license?</legend>
+          <div class="unit xs-1-2 s-1-2">
+            <label for"yes">Yes</label>
+            <input id="yes" type="radio" name="license">
+          </div>
+          <div class="unit xs-1-2 s-1-2">
+            <label for"no">No</label>
+            <input id="no" type="radio" name="license">
+          </div>
+        </fieldset>
+        <fieldset class="grid">
+          <legend class="unit xs-1 s-1">Do you have a pick-up truck you’d be willing to use?</legend>
+          <div class="unit xs-1-2 s-1-2">
+            <label for"yes">Yes</label>
+            <input id="yes" type="radio" name="truck">
+          </div>
+          <div class="unit xs-1-2 s-1-2">
+            <label for"no">No</label>
+            <input id="no" type="radio" name="truck">
+          </div>
+        </fieldset>
+        <fieldset class="grid">
+          <legend class="unit xs-1 s-1">Do you have up-to-date first-aid certification?</legend>
+          <div class="unit xs-1-2 s-1-2">
+            <label for"yes">Yes</label>
+            <input id="yes" type="radio" name="certification">
+          </div>
+          <div class="unit xs-1-2 s-1-2">
+            <label for"no">No</label>
+            <input id="no" type="radio" name="certification">
+          </div>
+        </fieldset>
 
         Please let us know any comments or questions you may have.
 
