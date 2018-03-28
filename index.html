@@ -12,14 +12,14 @@
 </head>
 <body>
   <div class="grid">
-    <header class="unit xs-1 s-1 m-1 l-1 xl-1">
-      <h1>Apply to be a tree planter</h1>
-      <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+    <header class="unit xs-1 s-1 m-1 l-1 xl-1 pad-t gutter-1-2 pad-b-1-2 push-2">
+      <h1 class="bold zetta push-1-2">Apply to be a tree planter</h1>
+      <p class="mega">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
     </header>
-    <div class="grid">
+    <div class="grid gutter-1-2">
       <form method="POST" action="https://formspree.io/dano0015@algonquinlive.com">
         <fieldset>
-          <legend class="unit xs-1 s-1">Personal details</legend>
+          <legend class="unit xs-1 s-1 push-2 mega">Personal details</legend>
           <div class="unit xs-1 s-1">
             <label for="name">Full name</label>
             <input id="name" name="name" required>
@@ -173,45 +173,39 @@
           </div>
         </fieldset>
         <fieldset class="grid">
-          <legend class="unit cs-1 s-1">Do you have a valid driver’s license?</legend>
-          <div class="unit xs-1-2 s-1-2">
+          <legend class="unit xs-1 s-1">Do you have a valid driver’s license?</legend>
+          <div class="unit xs-1 s-1">
+            <input type="radio" id="yes" name="license">
             <label for"yes">Yes</label>
-            <input id="yes" type="radio" name="license">
-          </div>
-          <div class="unit xs-1-2 s-1-2">
+            <input type="radio" id="no" name="license">
             <label for"no">No</label>
-            <input id="no" type="radio" name="license">
           </div>
         </fieldset>
         <fieldset class="grid">
           <legend class="unit xs-1 s-1">Do you have a pick-up truck you’d be willing to use?</legend>
-          <div class="unit xs-1-2 s-1-2">
+          <div class="unit xs-1 s-1">
+            <input type="radio" id="yes" name="truck">
             <label for"yes">Yes</label>
-            <input id="yes" type="radio" name="truck">
-          </div>
-          <div class="unit xs-1-2 s-1-2">
+            <input type="radio" id="no" name="truck">
             <label for"no">No</label>
-            <input id="no" type="radio" name="truck">
           </div>
         </fieldset>
         <fieldset class="grid">
           <legend class="unit xs-1 s-1">Do you have up-to-date first-aid certification?</legend>
-          <div class="unit xs-1-2 s-1-2">
+          <div class="unit xs-1 s-1">
+            <input type="radio" id="yes" name="certification">
             <label for"yes">Yes</label>
-            <input id="yes" type="radio" name="certification">
-          </div>
-          <div class="unit xs-1-2 s-1-2">
+            <input type="radio" id="no" name="certification">
             <label for"no">No</label>
-            <input id="no" type="radio" name="certification">
           </div>
         </fieldset>
-
-        Please let us know any comments or questions you may have.
-
-        Apply
+        <div class="unit xs-1 s-1">
+          <label for"comments">Please let us know any comments or questions you may have.</label>
+          <textarea id="comments" name="comments"></textarea>
+        </div>
+        <button class="btn btn-light" type="submit">Apply</button>
       </form>
-        © Tree Hugger International Organization
-
+      <footer class="unit xs-1 s-1 m-1 l-1 xl-1">© Tree Hugger International Organization</footer>
     </div>
   </div>
 </body>
