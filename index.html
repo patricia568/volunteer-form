@@ -8,18 +8,18 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700" rel="stylesheet">
 </head>
 <body>
   <div class="grid">
     <header class="unit xs-1 s-1 m-1 l-1 xl-1 pad-t gutter-1-2 pad-b-1-2 push-2">
-      <h1 class="bold zetta push-1-2">Apply to be a tree planter</h1>
+      <h1 class="bold exa push-1-2">Apply to be a tree planter</h1>
       <p class="mega">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
     </header>
     <div class="grid gutter-1-2">
       <form method="POST" action="https://formspree.io/dano0015@algonquinlive.com">
         <fieldset>
-          <legend class="unit xs-1 s-1 push tera">Personal details</legend>
+          <legend class="unit xs-1 s-1 push giga">Personal details</legend>
           <div class="unit xs-1 s-1">
             <label for="name">Full name</label>
             <input id="name" name="name" required>
@@ -55,13 +55,13 @@
             <input id="email" type="email" name="email" required>
           </div>
           <div class="unit xs-1 s-1 push-1-2">
-            <label for="tel">Phone number (optional)</label>
+            <label for="tel" class="push-1-8">Phone number <i>(optional)</i></label>
             <input id="tel" type="tel" name="tel">
           </div>
         </fieldset>
         <hr>
         <fieldset>
-          <legend class="unit xs-1 s-1 tera push">Address</legend>
+          <legend class="unit xs-1 s-1 giga push">Address</legend>
           <div class="unit xs-1 s-1 push">
             <label for="address">Street address</label>
             <input id="address" name="address" required>
@@ -96,7 +96,7 @@
         </fieldset>
         <hr>
         <fieldset class="grid push-2">
-          <legend class="unit xs-1 s-1 tera push-1-2">What activities are you interested in helping with?</legend>
+          <legend class="unit xs-1 s-1 giga push-1-2">What activities are you interested in helping with?</legend>
           <div class="unit xs-1 s-1 push-1-4">
             <input id="digging" type="checkbox" name="activities">
             <label for="digging">Digging holes</label>
@@ -131,7 +131,7 @@
           </div>
         </fieldset>
         <fieldset glass="grid">
-          <legend class="unit xs-1 s-1 tera push-1-2">Do you have any experience with the following?</legend>
+          <legend class="unit xs-1 s-1 giga push-1-2">Do you have any experience with the following?</legend>
           <div class="unit xs-1 s-1 push-1-4">
             <input id="shovel" type="checkbox" name="experience">
             <label for"shovel">Shovels</label>
@@ -175,35 +175,35 @@
         </fieldset>
         <hr>
         <fieldset class="grid push-2">
-          <legend class="unit xs-1 s-1 tera push-1-2">Do you have a valid driver’s license?</legend>
+          <legend class="unit xs-1 s-1 giga push-1-2">Do you have a valid driver’s license?</legend>
           <div class="unit xs-1 s-1">
             <input type="radio" id="yes" name="license">
-            <label for"yes">Yes</label>
+            <label for"yes" class="push-r">Yes</label>
             <input type="radio" id="no" name="license">
             <label for"no">No</label>
           </div>
         </fieldset>
         <fieldset class="grid push-2">
-          <legend class="unit xs-1 s-1 tera push-1-2">Do you have a pick-up truck you’d be willing to use?</legend>
+          <legend class="unit xs-1 s-1 giga push-1-2">Do you have a pick-up truck you’d be willing to use?</legend>
           <div class="unit xs-1 s-1">
             <input type="radio" id="yes" name="truck">
-            <label for"yes">Yes</label>
+            <label for"yes" class="push-r">Yes</label>
             <input type="radio" id="no" name="truck">
             <label for"no">No</label>
           </div>
         </fieldset>
         <fieldset class="grid push-2">
-          <legend class="unit xs-1 s-1 tera push-1-2">Do you have up-to-date first-aid certification?</legend>
+          <legend class="unit xs-1 s-1 giga push-1-2">Do you have up-to-date first-aid certification?</legend>
           <div class="unit xs-1 s-1">
             <input type="radio" id="yes" name="certification">
-            <label for"yes">Yes</label>
+            <label for"yes" class="push-r">Yes</label>
             <input type="radio" id="no" name="certification">
             <label for"no">No</label>
           </div>
         </fieldset>
         <hr>
         <div class="unit xs-1 s-1">
-          <label for"comments" class="tera push-1-2">Please let us know any comments or questions you may have.</label>
+          <label for"comments" class="giga push-1-2 bold">Please let us know any comments or questions you may have. <i>(optional)</i></label>
           <textarea id="comments" name="comments"></textarea>
         </div>
         <button class="btn btn-light" type="submit">Apply</button>

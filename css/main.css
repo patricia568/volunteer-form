@@ -10,3 +10,17 @@ header {
 body {
   margin: 0;
 }
+
+textarea {
+  height: 10em;
+}
+
+input,
+textarea,
+select {
+  border: solid 2px #6e8c62;
+}
+
+hr {
+  border: solid 1px #70ad55;
+}
