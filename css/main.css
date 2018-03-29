@@ -1,14 +1,10 @@
 html {
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
 }
 
 header {
   background-color: #70ad55;
   color: #fff;
-}
-
-body {
-  margin: 0;
 }
 
 textarea {
@@ -28,7 +24,7 @@ hr {
 .btn {
   padding: 10px 45px;
   background-color: #6e8c62;
-  border: none;
+  border-color: #6e8c62;
 }
 
 footer {
